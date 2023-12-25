@@ -21,20 +21,19 @@ Pengguna dapat memasukkan bilangan prima p, q, m, e, dan n yang sudah dihasilkan
 ![WhatsApp Image 2023-12-25 at 15 41 26_c69bb49c](https://github.com/BimmBB/Demo3/assets/144079933/4dfedb2a-c3d5-49d4-a532-618a01859770)
 
 2. **Enkripsi**
+    - Masukkan Karakter yang ingin akan di enkripsi.
     - Form sederhana dengan input pesan berupa textfields maksimal 1020 character.
-    - Tombol calculate untuk proses menghitung enkripsi. 
+    - Tombol encrypt untuk proses menghitung enkripsi. 
 
 ![WhatsApp Image 2023-12-25 at 15 41 53_fe8c25c3](https://github.com/BimmBB/Demo3/assets/144079933/7070ae2c-d1f6-4195-904b-6670ad221ac1)
-
 
 3. **Dekripsi**
     - Form sederhana dengan input bilangan m, p, q, e, dan n berupa textfields dengan tipe data 
     Big Integer.
-    - Tombol calculate untuk proses menghitung dekripsi.
+    - Tombol decrypt untuk proses menghitung dekripsi.
     - Textbox untuk memunculkan hasil perhitungan dekripsi pesan.
 
-![WhatsApp Image 2023-12-25 at 15 42 19_192456e6](https://github.com/BimmBB/Demo3/assets/144079933/b1c4c835-8508-44b1-ab88-0d2f69bd1df3)
-
+![WhatsApp Image 2023-12-25 at 15 42 19_192456e6](https://github.com/BimmBB/Demo3/assets/144079933/b1c4c835-8508-44b1-ab88-0d2f69bd1df3)    
 
 ## Cara Menggunakan Proyek
 1. **Halaman Utama**
