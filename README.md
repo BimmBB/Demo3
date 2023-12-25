@@ -17,9 +17,9 @@ Pengguna dapat memasukkan bilangan prima p, q, m, e, dan n yang sudah dihasilkan
 1. **Halaman Utama**
     - Tampilan sederhana untuk pemilihan opsi enkripsi atau dekripsi.
     - Tombol akses cepat untuk masuk ke opsi enkripsi atau dekripsi.
-
+![alt] (1.jpg) 
 2. **Enkripsi**
-    - Form sederhana dengan input pesan berupa textfields maksimal 600 character. 
+    - Form sederhana dengan input pesan berupa textfields maksimal 1020 character. 
     - Tombol calculate untuk proses menghitung enkripsi. 
 
 3. **Dekripsi**
@@ -34,7 +34,7 @@ Pengguna dapat memasukkan bilangan prima p, q, m, e, dan n yang sudah dihasilkan
     - Klik pada opsi yang diinginkan untuk memulai proses.
 2. **Enkripsi**
     - Jika pengguna memilih opsi enkripsi, akan muncul form sederhana.
-    - Isi pesan yang ingin dienkripsi pada textfield yang tersedia (maksimal 600 karakter).
+    - Isi pesan yang ingin dienkripsi pada textfield yang tersedia (maksimal 1020 karakter).
     - Setelah memasukkan pesan, klik tombol "Calculate" untuk memulai proses enkripsi.
     - Hasil enkripsi akan ditampilkan pada antarmuka pengguna dan juga disimpan dalam file output.txt di direktori yang sama dengan program untuk menjaga keamanan nilai private value.
 
