@@ -37,7 +37,7 @@ Pengguna dapat memasukkan bilangan prima p, q, m, e, dan n yang sudah dihasilkan
     - Isi pesan yang ingin dienkripsi pada textfield yang tersedia (maksimal 600 karakter).
     - Setelah memasukkan pesan, klik tombol "Calculate" untuk memulai proses enkripsi.
     - Hasil enkripsi akan ditampilkan pada antarmuka pengguna dan juga disimpan dalam file output.txt di direktori yang sama dengan program untuk menjaga keamanan nilai private value.
-Catatan : Pastikan untuk memeriksa file output.txt setelah proses enkripsi untuk melihat hasil enkripsi yang disimpan dalam file tersebut.
+**Catatan :** Pastikan untuk memeriksa file output.txt setelah proses enkripsi untuk melihat hasil enkripsi yang disimpan dalam file tersebut.
 3. **Dekripsi**
     - Jika pengguna memilih opsi dekripsi, akan muncul form sederhana untuk memasukkan nilai-nilai yang diperlukan.
     - Isi nilai-nilai seperti bilangan prima p, q, m, e, dan n pada textfield yang tersedia dengan tipe data Big Integer.
