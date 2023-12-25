@@ -13,16 +13,65 @@ Pengguna dapat memasukkan bilangan prima p, q, m, e, dan n yang sudah dihasilkan
     - Pengguna dapat memasukkan bilangan prima p, q, m, e, dan n yang sudah dihasilkan oleh proses enkripsi dengan tipe data Big Integer ke dalam textfields.
     - Calculator akan menghitung dekripsi dan output hasil ke layar.
 
+## Antar Muka Pengguna
+1. **Halaman Utama**
+    - Tampilan sederhana untuk pemilihan opsi enkripsi atau dekripsi.
+    - Tombol akses cepat untuk masuk ke opsi enkripsi atau dekripsi.
+
+2. **Enkripsi**
+    - Form sederhana dengan input pesan berupa textfields maksimal 600 character. 
+    - Tombol calculate untuk proses menghitung enkripsi. 
+
+3. **Dekripsi**
+    - Form sederhana dengan input bilangan m, p, q, e, dan n berupa textfields dengan tipe data 
+    Big Integer.
+    - Tombol calculate untuk proses menghitung dekripsi.
+    - Textbox untuk memunculkan hasil perhitungan dekripsi pesan.
+
 ## Cara Menggunakan Proyek
-1. Unduh atau salin kode proyek ini ke dalam lingkungan pengembangan Java yang telah terpasang.
-2. Buka terminal atau command prompt, arahkan ke direktori tempat Anda menyimpan kode proyek.
-3. Kompilasi file `Encryption.java` dengan perintah: `javac Encryption.java`.
-4. Jalankan program dengan perintah: `java Encryption`.
-5. Program akan meminta input teks yang akan dienkripsi. Pastikan panjang teks tidak melebihi 1024 karakter.
-6. Setelah proses enkripsi selesai, program akan menghasilkan file `output.txt` yang berisi nilai ciphertext, nilai e, nilai n, dan nilai p setelah proses enkripsi selesai.
+1. **Halaman Utama**
+    - Saat dijalankan, pengguna akan melihat tampilan utama yang sederhana dengan opsi untuk memilih antara enkripsi atau dekripsi.
+    - Klik pada opsi yang diinginkan untuk memulai proses.
+2. **Enkripsi**
+    - Jika pengguna memilih opsi enkripsi, akan muncul form sederhana.
+    - Isi pesan yang ingin dienkripsi pada textfield yang tersedia (maksimal 600 karakter).
+    - Setelah memasukkan pesan, klik tombol "Calculate" untuk memulai proses enkripsi.
+    - Hasil enkripsi akan ditampilkan pada antarmuka pengguna dan juga disimpan dalam file output.txt di direktori yang sama dengan program untuk menjaga keamanan nilai private value.
+    Catatan : Pastikan untuk memeriksa file output.txt setelah proses enkripsi untuk melihat hasil enkripsi yang disimpan dalam file tersebut.
+3. **Dekripsi**
+    - Jika pengguna memilih opsi dekripsi, akan muncul form sederhana untuk memasukkan nilai-nilai yang diperlukan.
+    - Isi nilai-nilai seperti bilangan prima p, q, m, e, dan n pada textfield yang tersedia dengan tipe data Big Integer.
+    - Setelah memasukkan nilai-nilai, klik tombol "Calculate" untuk memulai proses dekripsi.
+    - Hasil perhitungan dekripsi akan muncul pada textbox yang tersedia.
+
+## Persyaratan Teknis
+    - Bahasa Pemrograman: Program dikembangkan menggunakan Java 11+.
+    - Antarmuka Pengguna: Antarmuka grafis dibangun dengan menggunakan JavaFX.
+    - Keamanan: Hasil enkripsi akan ditampilkan pada antarmuka pengguna dan juga disimpan dalam file txt (output.txt) untuk menjaga keamanan nilai private value dari hasil enkripsi.
+
+## Batasan Program
+    - Varian Nilai RSA: Program hanya dirancang untuk enkripsi dan dekripsi dasar RSA dengan melibatkan public key p dan q.
+    - Fitur Attack: Tidak ada fitur yang dirancang untuk melakukan serangan terhadap pesan RSA guna mencari nilai private value.
+
+Pastikan untuk mengikuti langkah-langkah tersebut dengan cermat dan periksa file output.txt setelah proses enkripsi untuk melihat hasil enkripsi yang disimpan dalam file tersebut.
 
 ## Kontribusi
-Anda diundang untuk berkontribusi pada proyek ini. Jika Anda menemukan masalah atau ingin menambahkan fitur baru, silakan buat pull request atau laporkan masalah di [tautan repository proyek].
+
+Setiap kontribusi dan bantuan dari anggota tim sangat dihargai. Berikut adalah peran masing-masing anggota:
+
+- **Softdrinks14**: Bertanggung jawab untuk bagian frontend dan desain antarmuka pengguna.
+- **radan775**: Mengelola backend dan struktur database.
+- **Arabmeme**: Mengelola backend dan struktur database.
+- **BimmBB**: Mengelola dokumentasi. 
 
 ## Lisensi
-Proyek ini dilisensikan di bawah [jenis lisensi yang digunakan, misalnya MIT License]. Untuk detail lebih lanjut, lihat file [LICENCE] di repository proyek ini.
+
+
+
+## Anggota Tim
+Ini adalah repositori untuk proyek Calculator RSA yang dikembangkan oleh tim berikut:
+
+- [Hisyam Bima Ekhsantama](https://github.com/Softdrinks14)
+- [Taufik Ramadhan](https://github.com/radan775)
+- [Rahmatullah Akbar Prima](https://github.com/Arabmeme)
+- [Bima Bhakti Brawijaya](https://github.com/BimmBB)
