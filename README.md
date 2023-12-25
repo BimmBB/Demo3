@@ -18,7 +18,7 @@ Pengguna dapat memasukkan bilangan prima p, q, m, e, dan n yang sudah dihasilkan
     - Tampilan sederhana untuk pemilihan opsi enkripsi atau dekripsi.
     - Dan opsi close untuk mengakhiri calculator RSA
 
-![alt text](WhatsApp Image 2023-12-25 at 15.41.26_f511c239.jpg)
+![WhatsApp Image 2023-12-25 at 15 41 26_c69bb49c](https://github.com/BimmBB/Demo3/assets/144079933/4dfedb2a-c3d5-49d4-a532-618a01859770)
 
 2. **Enkripsi**
     - Form sederhana dengan input pesan berupa textfields maksimal 1020 character.
